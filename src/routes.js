@@ -3,7 +3,8 @@ export const Routes = {
     // pages
     //Presentation: { path: "/" },
     DashboardOverview: { path: "/dashboard/overview" },
-    Insurances: { path: "/insurances" },
+    PendingInsurances: { path: "/pendinginsurances" },
+    ApprovedInsurances : { path: "/approvedinsurances"},
     CreateInsurance: { path: "/createinsurance" },
     Upgrade: { path: "/upgrade" },
     BootstrapTables: { path: "/tables/bootstrap-tables" },

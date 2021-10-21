@@ -5,7 +5,8 @@ import { Routes } from "../routes";
 // pages
 
 
-import Insurances from "./Insurances";
+import PendingInsurances from './insurances/PendingInsurances';
+import ApprovedInsurances from './insurances/ApprovedInsurances';
 import CreateInsurance from "./CreateInsurance";
 
 
@@ -81,7 +82,8 @@ export default () => (
     {/* pages */}
     
     
-    <RouteWithSidebar exact path={Routes.Insurances.path} component={Insurances} />
+    <RouteWithSidebar exact path={Routes.PendingInsurances.path} component={PendingInsurances} />
+    <RouteWithSidebar exact path={Routes.ApprovedInsurances.path} component={ApprovedInsurances} />
     <RouteWithSidebar exact path={Routes.CreateInsurance.path} component={CreateInsurance} />
     
 

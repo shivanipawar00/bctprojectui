@@ -97,10 +97,11 @@ export default (props = {}) => {
               </Nav.Link>
             </div>
             <Nav className="flex-column pt-3 pt-md-0">
-              <NavItem title="BCT Insurance" link={Routes.Insurances.path} image={ReactHero} />
+              <NavItem title="BCT Insurance" link={Routes.ApprovedInsurances.path} image={ReactHero} />
 
-              <NavItem title="Overview" link={Routes.Insurances.path} icon={faChartPie} />
-              <NavItem title="Insurances" icon={faHandHoldingUsd} link={Routes.Insurances.path} />
+              <NavItem title="Overview" link={Routes.ApprovedInsurances.path} icon={faChartPie} />
+              <NavItem title="Pending Insurances" icon={faHandHoldingUsd} link={Routes.PendingInsurances.path} />
+              <NavItem title="Approved Insurances" icon={faHandHoldingUsd} link={Routes.ApprovedInsurances.path} />
               <NavItem title="CreateInsurance" icon={faCog} link={Routes.CreateInsurance.path} />
               
               
